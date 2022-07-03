@@ -1,5 +1,6 @@
 :root {
     --bs-success: #60a73b;
+    --bs-success-rgb: rgb(96, 167, 59);
 }
 
 .btn-xl {
@@ -67,6 +68,35 @@ header a {
     padding-top: 50px;
 }
 
+.form-data {
+    background-color: #e4e4e4;
+    border-radius: 25px;
+  
+}
+
+.form-data hr {
+    margin:0;
+    color: #a9a9a9;
+}
+
+.bg-success {
+   background-color:  #60a73b;
+}
+
+
+
+.form-data-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding:12px 25px;
+
+}
+.form-check-input {
+    width: 4em !important;
+    height: 1.7em;
+}
+
 #logo-main img {
     height: 150px;
 }
@@ -110,4 +140,11 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.label-charge{
+    width:4em;
+    text-align: right;
+    border-radius: 15px;
+    padding-right: 10px;
 }
