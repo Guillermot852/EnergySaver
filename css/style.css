@@ -1,0 +1,74 @@
+:root {
+    --bs-success: #60a73b;
+}
+
+.btn-xl {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+.btn-lg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.btn-info {
+    background-color: #84c5c6;
+    border-color: rgb(96, 96, 96);
+}
+.btn-s {
+    border-radius: 25px;
+}
+.btn-success {
+    background-color: #60a73b;
+}
+  
+.textbox {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    margin-bottom: 18px;
+    background-color: #f0f0f0;
+    border-color: rgb(96, 96, 96);
+}
+
+#main-index {
+    padding:80px;
+    height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-main img {
+    height: 150px;
+}
+#logo-main h1 {
+    color: #60a73b;
+    font-weight: 700;
+}
+#main{
+    padding-top: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+#logo-login img {
+    height: 90px;
+}
+
+#logo-login h1 {
+    color: #60a73b;
+    font-weight: 700;
+}
+.have-account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
