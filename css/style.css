@@ -7,6 +7,8 @@
     padding-bottom: 30px;
     font-size: 24px;
     border-radius: 15px;
+    font-weight: 700;
+    text-align: center;
 }
 .btn-lg {
     padding-top: 20px;
@@ -23,8 +25,16 @@
 }
 .btn-success {
     background-color: #60a73b;
+    color: rgb( 43, 82, 16);
 }
-  
+.btn-warning {
+    background-color: rgb( 226, 162, 44);;
+    color: rgb( 224, 97, 46);
+    border-color: rgb( 224, 97, 46);
+}
+.btn-info.btn-xl {
+    color: rgb( 31, 41, 131);
+}
 .textbox {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -32,6 +42,15 @@
     margin-bottom: 18px;
     background-color: #f0f0f0;
     border-color: rgb(96, 96, 96);
+}
+
+header {
+    margin-top: 18px;
+    margin-left: 15px;
+}
+header a {
+    color: black;
+    text-decoration: none;
 }
 
 #main-index {
@@ -44,6 +63,10 @@
   justify-content: center;
 }
 
+#main.data {
+    padding-top: 50px;
+}
+
 #logo-main img {
     height: 150px;
 }
@@ -51,6 +74,22 @@
     color: #60a73b;
     font-weight: 700;
 }
+
+#logo-home img {
+    height: 60px;
+}
+#logo-home h1 {
+    color: #60a73b;
+    font-weight: 700;
+}
+#logo-home {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
 #main{
     padding-top: 120px;
     padding-left: 40px;
